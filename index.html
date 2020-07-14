@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="concert">
+        <h1 class="title">Event Listing</h1>
+        <div class="filter">
+            <div class="filter-item">
+                <span class="town">City:</span>
+                <select class="select" id="select-city">
+                    <option value="value1" selected>All</option> 
+                </select>
+            </div>
+            <div class="filter-item">
+                <span class="month">Month:</span>
+                <select class="select" name="select-month">
+                    <option value="AllMonth" selected>All</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="concert-list" id="concert-list"></div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
